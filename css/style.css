@@ -1,3 +1,5 @@
+
+
 #main-navbar { 
 	overflow:hidden;
 }
@@ -34,6 +36,9 @@
 	padding:10px 20px;
 	
 }
+
+
+
 
 #main-navbar ul li a:hover {
 	background-color:#000;
@@ -94,10 +99,24 @@ ul {
 	float:left;
 }
 
-iframe {
-	width:1280px;
-	height:720px;
-	position:static;
+
+#videos {
+		position:relative;
+		padding-top:10px;
+		width:640px;
+		height:480px;
+		border:0px solid #ffffff
+	}
+
+@media screen and (min-width: 1200px){
+	#videos {
+		width:1280px;
+		height:720px;
+		position:static;
+		padding-top:0;
+		padding-left:20px;
+		border: 0px solid #ffffff;
+	}
 }
 
 #intro {
