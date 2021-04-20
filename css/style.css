@@ -108,7 +108,7 @@ ul {
 		border:0px solid #ffffff
 	}
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 800px){
 	#videos {
 		width:1280px;
 		height:720px;
@@ -139,5 +139,17 @@ ul {
 		text-align:center;
 		margin-top:50px;
 		font-size:20px;
+	}
+}
+
+
+#banner {
+	width:640px;
+	height:250px;
+}
+@media screen and (min-width:1920px) {
+	#banner {
+		width:2306px;
+		height:531px;
 	}
 }
