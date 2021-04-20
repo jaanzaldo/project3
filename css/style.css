@@ -40,6 +40,7 @@
 #rendition {
 	position:relative;
 	left: 50px;
+	font-style: italic;
 }
 
 #welcome {
