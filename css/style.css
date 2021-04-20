@@ -108,7 +108,7 @@ ul {
 		border:0px solid #ffffff
 	}
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 900px){
 	#videos {
 		width:1280px;
 		height:720px;
@@ -126,4 +126,18 @@ ul {
 #resume {
 	position:relative;
 	left:150px;	
+}
+
+#videotext {
+	margin-right:100px;
+	margin-left:10px;
+}
+@media screen and (min-width:900px) {
+	#videotext { 
+		margin-right:0px;
+		margin-left:0px;
+		text-align:center;
+		margin-top:50px;
+		font-size:20px;
+	}
 }
