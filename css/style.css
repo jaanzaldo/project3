@@ -38,8 +38,6 @@
 }
 
 
-
-
 #main-navbar ul li a:hover {
 	background-color:#000;
 }
@@ -144,12 +142,7 @@ ul {
 
 
 #banner {
-	width:640px;
-	height:250px;
-}
-@media screen and (min-width:1920px) {
-	#banner {
-		width:2306px;
-		height:531px;
-	}
+	height:auto;
+	width:auto;
+	max-width:100%;
 }
