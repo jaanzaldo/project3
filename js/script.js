@@ -25,6 +25,7 @@ function initMap() {
   chicago = new google.maps.Marker({
     position: { lat: 41.881832, lng: -87.623177 },
     map,
+	icon: customMarker,
     title: "The City of Chicago",
   });
   
