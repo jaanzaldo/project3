@@ -98,16 +98,16 @@ ul {
 }
 
 
-#videos {
+iframe{
 		position:relative;
 		padding-top:10px;
-		width:640px;
-		height:480px;
+		width:480px;
+		height:240px;
 		border:0px solid #ffffff
 	}
 
 @media screen and (min-width: 800px){
-	#videos {
+	iframe{
 		width:1280px;
 		height:720px;
 		position:static;
