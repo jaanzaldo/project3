@@ -45,7 +45,10 @@ function initMap() {
 }
 
 $(document).ready(function(){
-      $('.slider').bxSlider();
+      $('.slider').bxSlider({
+		  slideWidth: 918, 
+		  slideHeight: 918
+		  });
     });
 
 
