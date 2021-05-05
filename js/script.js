@@ -44,6 +44,9 @@ function initMap() {
   
 }
 
+$(document).ready(function(){
+      $('.slider').bxSlider();
+    });
 
 
 
